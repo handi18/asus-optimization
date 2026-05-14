@@ -200,4 +200,4 @@ with gr.Blocks() as demo:
     run_btn.click(run_optimization, inputs=[original_img_state, input_image, heat_sources_state, avoid_sources_state, valid_area_state], outputs=[output_image, output_text, avoid_sources_state])
 
 if __name__ == "__main__":
-    demo.launch(server_name="127.0.0.1", theme=gr.themes.Soft())
+    demo.launch(server_name="0.0.0.0", theme=gr.themes.Soft())
