@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "D:\\py\\python.exe",
+    "python.analysis.extraPaths": [
+        "./asus_tuf_optimization"
+    ],
+    "python.autoComplete.extraPaths": [
+        "./asus_tuf_optimization"
+    ]
+}
